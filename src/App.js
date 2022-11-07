@@ -18,16 +18,11 @@ function App() {
   return (
     <div className="App">
       <TopSec />
-      <Hero />
-      <Images />
-      <ThirdSec />
-      <Advert />
 
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="home" element={<Home />} />
-
-        <Route path="top-sec/services" element={<Services />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/tnsshop" element={<Home />} />
         <Route path="services" element={<Services />} />
         <Route path="categories" element={<Categories />} />
         <Route path="about-us" element={<AboutUs />} />
