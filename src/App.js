@@ -20,9 +20,10 @@ function App() {
       <TopSec />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/tnsshop" element={<Home />} />
+        <Route index element={<Home />} />
+        <Route path="home" element={<Home />} />
+
+        <Route path="top-sec/services" element={<Services />} />
         <Route path="services" element={<Services />} />
         <Route path="categories" element={<Categories />} />
         <Route path="about-us" element={<AboutUs />} />
@@ -43,6 +44,17 @@ function App() {
         <Route path="categories" element={<Categories />} />
         <Route path="about-us" element={<AboutUs />} />
         <Route path="contact-us" element={<Products />} />
+      </Routes>
+      
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="tnsshop" element={<Home />} />
+
+        <Route path="top-sec/services" element={<Services />} />
+        <Route path="services" element={<Services />} />
+        <Route path="categories" element={<Categories />} />
+        <Route path="about-us" element={<AboutUs />} />
+        <Route path="contact-us" element={<ContactUs />} />
       </Routes>
 */
 
