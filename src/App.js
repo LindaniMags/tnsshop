@@ -19,7 +19,7 @@ function App() {
       <TopSec />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="home" element={<Home />} />
 
         <Route path="top-sec/services" element={<Services />} />
