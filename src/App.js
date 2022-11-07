@@ -25,7 +25,7 @@ function App() {
 
       <Routes>
         <Route index element={<Home />} />
-        <Route path="home" element={<Home />} />
+        <Route path="tnsshop/home" element={<Home />} />
 
         <Route path="top-sec/services" element={<Services />} />
         <Route path="services" element={<Services />} />
