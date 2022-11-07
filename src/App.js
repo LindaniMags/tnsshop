@@ -17,6 +17,10 @@ function App() {
   return (
     <div className="App">
       <TopSec />
+      <Hero />
+      <Images />
+      <ThirdSec />
+      <Advert />
 
       <Routes>
         <Route index element={<Home />} />
