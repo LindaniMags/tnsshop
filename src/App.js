@@ -12,6 +12,7 @@ import { Home } from "./components/Home";
 import { Categories } from "./components/Categories";
 import { AboutUs } from "./components/AboutUs";
 import { ContactUs } from "./components/ContactUs";
+import { Hero } from "./components/Hero";
 
 function App() {
   return (
