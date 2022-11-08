@@ -24,19 +24,19 @@ export function TopSec() {
           <div className={active ? "menu-icon-active" : "menu-icon-inactive"}>
             <ul className="nav-list-active">
               <li>
-                <NavLink to="/home">HOME</NavLink>
+                <NavLink to="tnsshop/home">HOME</NavLink>
               </li>
               <li>
-                <NavLink to="/categories">CATEGORIES</NavLink>
+                <NavLink to="tnsshop/categories">CATEGORIES</NavLink>
               </li>
               <li>
-                <NavLink to="/services">SERVICES</NavLink>
+                <NavLink to="tnsshop/services">SERVICES</NavLink>
               </li>
               <li>
-                <NavLink to="/about-us">ABOUT US</NavLink>
+                <NavLink to="tnsshop/about-us">ABOUT US</NavLink>
               </li>
               <li>
-                <NavLink to="/contact-us">CONTACT US</NavLink>
+                <NavLink to="tnsshop/contact-us">CONTACT US</NavLink>
               </li>
             </ul>
           </div>
