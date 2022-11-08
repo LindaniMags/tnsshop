@@ -20,14 +20,13 @@ function App() {
       <TopSec />
 
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="home" element={<Home />} />
-
-        <Route path="top-sec/services" element={<Services />} />
-        <Route path="services" element={<Services />} />
-        <Route path="categories" element={<Categories />} />
-        <Route path="about-us" element={<AboutUs />} />
-        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="/" element={<Home />} />
+        <Route path="tnsshop/home" element={<Home />} />
+        <Route path="tnsshop" element={<Home />} />
+        <Route path="tnsshop/services" element={<Services />} />
+        <Route path="tnsshop/categories" element={<Categories />} />
+        <Route path="tnsshop/about-us" element={<AboutUs />} />
+        <Route path="tnsshop/contact-us" element={<ContactUs />} />
       </Routes>
 
       <Footer />
