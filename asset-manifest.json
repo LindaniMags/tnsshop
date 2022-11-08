@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tnsshop/static/css/main.d5640112.css",
-    "main.js": "/tnsshop/static/js/main.bef97cfd.js",
+    "main.js": "/tnsshop/static/js/main.35009c39.js",
     "static/js/787.73fc88c9.chunk.js": "/tnsshop/static/js/787.73fc88c9.chunk.js",
     "static/media/greenhouse.jpg": "/tnsshop/static/media/greenhouse.06c86ca73fbbf231a1ee.jpg",
     "static/media/layout.jpg": "/tnsshop/static/media/layout.1b9e73f78d771e2a86d2.jpg",
@@ -35,11 +35,11 @@
     "static/media/TS logo.png": "/tnsshop/static/media/TS logo.ffe85156925480cc8d6a.png",
     "index.html": "/tnsshop/index.html",
     "main.d5640112.css.map": "/tnsshop/static/css/main.d5640112.css.map",
-    "main.bef97cfd.js.map": "/tnsshop/static/js/main.bef97cfd.js.map",
+    "main.35009c39.js.map": "/tnsshop/static/js/main.35009c39.js.map",
     "787.73fc88c9.chunk.js.map": "/tnsshop/static/js/787.73fc88c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5640112.css",
-    "static/js/main.bef97cfd.js"
+    "static/js/main.35009c39.js"
   ]
 }
